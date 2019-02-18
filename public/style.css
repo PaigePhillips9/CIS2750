@@ -1,0 +1,119 @@
+html {
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #EBD9F1;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: #EBD9F1;
+}
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+}
+input[type=submit], button {
+    cursor: pointer;
+    cursor: hand;
+}
+@media(max-width: 900px) {
+    html {
+        font-size: 14px !important;
+        width: 80% !important;
+    }
+}
+@media(max-width: 480px) {
+    html {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+}
+@media(max-width: 320px) {
+    html {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}
+
+.panel{
+    color: black;
+    background-color: white;
+}
+
+.statusPanel{
+    height: 130px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.GEDCOMviewPanel{
+    background-color: white;
+    height: 280px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.fileViewPanel{
+    background-color: white;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.section3Stuff{
+    background-color: white;
+}
+
+.genViewPanel{
+    overflow-x: auto;
+}
+
+.login{
+    background-color: #EBE5ED;
+    background-color: #D9E7F1;
+    position: fixed;
+    width: 40%;
+    height: auto;
+    left: 30%;
+    top: 20%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.help{
+    display: none;
+    background-color: #EBE5ED;
+    background-color: #D9E7F1;
+    position: fixed;
+    width: 40%;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: auto;
+    left: 30%;
+    top: 20%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.generalViewPanel{
+    background-color: white;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.database{
+    visibility: hidden;
+}
